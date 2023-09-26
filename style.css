@@ -1,0 +1,212 @@
+
+
+body{
+    padding:0 30px;
+
+}
+
+/* ********** header *********** */
+
+header{
+  
+    border: 1px solid green;
+    padding: 10px;
+    background:linear-gradient(to right,#006f00, #3ea257);
+    background-size: cover ;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.logo{
+    width: 70px;
+    height: auto;
+}
+header a {
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    color: white;
+    letter-spacing: 20px;
+}
+
+/* ****************** main ************ */
+
+main{
+    display: flex;
+    flex-direction: row;
+
+}
+.filtrer{
+    color:green;
+    border-radius: 4px;
+	box-shadow: 0px 0px 4px rgb(6, 129, 31);
+	margin: 8px;
+	padding: 8px;
+	min-width: 300px;
+	min-height: 400px;
+    background-color: white;
+}
+
+.filtrer h3 {
+	text-align: center;
+    color: white;
+    background:linear-gradient(to right,#006f00, #3ea257);
+    border: none;
+    border-radius: 3px;
+    padding: 3px;
+}
+ 
+ .filtrer .trierPlantes {
+    display: none;
+    text-align: center;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ .filtrer .trierPlantes  p{
+    
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: #006f00;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+ }
+ .filtrer .trierFleurs {
+    display: none;
+    text-align: center;
+    border: 1px solid rgb(221, 56, 56);
+    padding: 10px;
+    border-radius: 10px;
+ }
+ .filtrer .trierFleurs  p{
+    
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: #ee3333;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+ }
+ .filtrer .trierAll{
+    
+    display: none;
+    text-align: center;
+    border: 1px solid #480048;
+    padding: 10px;
+    border-radius: 10px;
+
+ }
+ .filtrer .trierAll p {
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: #480048;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+
+ }
+.fiches {
+	flex: 1;
+	margin: 8px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 4px;
+    
+}
+.fiches article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+	border: 1px solid rgb(5, 140, 39);
+    border-radius: 4px;
+	/* box-shadow: 0px 0px 4px rgb(6, 129, 31); */
+	padding: 4px;
+}
+
+.fiches article img {
+    
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 300px;
+    max-height: 350px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.fiches article p {
+margin :4px 20px ;
+    font-weight: 600;
+}
+.fiches article h2 {
+	text-align: center;
+}
+
+
+
+
+
+.tous
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.plantes{
+    font-size: 20px;
+    border:1px solid green;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    background-image: url("images /img-1.jpg");
+    background-size: cover;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+.fleurs{
+    font-size: 20px;
+    border:1px solid green;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    background-image: url("images /fleur.jpg");
+    background-size: cover;
+    color: white;
+    cursor: pointer;
+    font-weight:600 ;
+    font-size: 20px;
+
+}
+.all{
+    font-size: 20px;
+    border:1px solid green;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    background-image: url("images /tous.jpg");
+    background-size: cover;
+    color: white;
+    cursor: pointer;
+    font-weight:600 ;
+    font-size: 20px;
+}
+
+/*   ******************* date et heure *************  */
+
+.date{
+    display: none;
+    background:linear-gradient(to right,#006f00, #3ea257);
+    /* background-image: url("images /date.jpg"); */
+    /* background-size: cover; */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+
+}

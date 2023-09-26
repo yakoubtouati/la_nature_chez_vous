@@ -1,0 +1,125 @@
+
+[
+
+{
+    "id":1,
+    "nom":"plante-1",
+    "prix":80,
+    "category":"Plantes",
+    "image":"images /plante-1.jpg",
+    "description":"une petite description ",
+    "disponibilite":true
+    
+},
+{
+    "id":2,
+    "nom":"Fleur-1",
+    "prix":45,
+    "category":"Fleurs",
+    "image":"images /fleur-1.jpg",
+    "description":"une petite description ",
+    "disponibilite":true
+    
+},
+{
+    "id":3,
+    "nom":"plante-2",
+    "prix":120,
+    "category":"Plantes",
+    "image":"images /plante-2.jpg",
+    "description":"une petite description ",
+    "disponibilite":false
+    
+},
+{
+    "id":4,
+    "nom":"Fleur-2",
+    "prix":55,
+    "category":"Fleurs",
+    "image":"images /fleur-2.jpg",
+    "description":"une petite description ",
+    "disponibilite":true
+    
+},
+{
+    "id":5,
+    "nom":"plante-3",
+    "prix":140,
+    "prixAfter":99,
+    "category":"Plantes",
+    "image":"images /plante-3.jpg",
+    "description":"une petite description ",
+    "disponibilite":true
+    
+},
+{
+    "id":6,
+    "nom":"Fleur-3",
+    "prix":25,
+    "category":"Fleurs",
+    "image":"images /fleur-3.jpg",
+    "description":"une petite description ",
+    "disponibilite":true
+    
+},
+{
+    "id":7,
+    "nom":"plante-4",
+    "prix":75,
+    "category":"Plantes",
+    "image":"images /plante-4.jpg",
+    "description":"une petite description ",
+    "disponibilite":true
+    
+},
+{
+    "id":8,
+    "nom":"Fleur-4",
+    "prix":29,
+    "category":"Fleurs",
+    "image":"images /fleur-4.jpg",
+    "description":"une petite description ",
+    "disponibilite":true
+    
+},
+{
+    "id":9,
+    "nom":"plante-5",
+    "prix":65,
+    "category":"Plantes",
+    "image":"images /plante-5.jpg",
+    "description":"une petite description ",
+    "disponibilite":true
+    
+},
+{
+    "id":10,
+    "nom":"Fleur-5",
+    "prix":40,
+    "category":"Fleurs",
+    "image":"images /fleur-5.jpg",
+    "description":"une petite description ",
+    "disponibilite":false
+    
+},
+{
+    "id":11,
+    "nom":"plante-6",
+    "prix":75,
+    "category":"Plantes",
+    "image":"images /plante-6.jpg",
+    "description":"une petite description ",
+    "disponibilite":false
+    
+},
+{
+    "id":12,
+    "nom":"Fleur-6",
+    "prix":35,
+    "category":"Fleurs",
+    "image":"images /fleur-6.jpg",
+    "description":"une petite description ",
+    "disponibilite":true
+    
+}
+]
